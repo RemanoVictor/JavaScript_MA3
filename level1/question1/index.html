@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - MA03 - Question 1</title>
+<style>
+    
+    input{
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    
+    form{
+        text-align: center;
+        background-color: darkgray
+    }
+    
+</style>
+</head>
+<body>
+
+<!--Contact Form-->
+<form onsubmit="return false"> 
+    
+    <p> First Name </p>
+    <input type="text" placeholder="insert name" id="firstName">
+    
+    <p> Last Name </p>
+    <input type="text" placeholder="insert last name" id="lastName">
+    
+    <p> Phone Number</p>
+    <input type="number" placeholder="insert Phone number" id="phoneNumber">
+
+    <p> Email Address</p>
+    <input type="email" placeholder="enter email adress" id="emailAddy">
+    
+    <button type="submit" onclick="submitForm()" >click me </button>
+    
+</form>
+    
+ <p id="firstnameoutput"></p>
+    
+ <p id="lastnameoutput"></p>
+ 
+ <p id="phoneoutput"></p>    
+    
+<p id="emailoutput"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
